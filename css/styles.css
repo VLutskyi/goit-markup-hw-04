@@ -279,8 +279,13 @@ p {
 .list-features {
   display: flex;
   gap: 24px;
-
 }
+
+
+.features-li{
+  width: calc((100% - 72px) / 4);
+}
+
 
 
 .list-item-features {
@@ -402,6 +407,8 @@ p {
   text-align: center;
   color:#434455;
   text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 /* ================================================================================= */
@@ -421,6 +428,7 @@ p {
   color:#2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px; 
+  margin-top: 0;
 }
 
 
@@ -547,8 +555,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
-
 }
 
 
@@ -571,6 +577,7 @@ p {
 .footer-ul{
   display: flex;
   gap: 16px;
+  margin-top: 16px;
 
 }
 
